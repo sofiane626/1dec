@@ -1,5 +1,6 @@
 div {
   animation: mymove 1s reverse;
+  animation-iteration-count: 2;
 }
 
 @keyframes mymove {
