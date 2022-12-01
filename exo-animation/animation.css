@@ -1,14 +1,36 @@
 div {
-  animation: mymove 1s reverse;
+  animation: so 2s reverse;
   animation-iteration-count: 2;
+  animation-fill-mode: forwards;
 }
 
-@keyframes mymove {
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes so {
   0% {
+    top: 0px;
     left: 0px;
   }
 
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+
   100% {
-    left: 200px
+    top: 0px;
+    left: 0px
   }
 }
