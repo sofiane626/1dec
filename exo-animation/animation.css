@@ -1,11 +1,21 @@
 div {
-  animation: so 2s reverse;
+  animation: so2 2s;
   animation-iteration-count: 2;
-  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
 }
 
 div:hover {
   animation-play-state: paused;
+}
+
+@keyframes so2 {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 200px;
+  }
 }
 
 @keyframes so {
