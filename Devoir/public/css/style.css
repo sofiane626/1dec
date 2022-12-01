@@ -94,7 +94,7 @@ body {
     .row {
         display: flex;
         flex-direction: column;
-        height: 100%;
+        aspect-ratio: 1/1;
         width: 100%;
         gap: 10px;
     }
@@ -134,7 +134,7 @@ body {
     .col {
         display: flex;
         flex-direction: column;
-        height: 100%;
+        aspect-ratio: 1/1;
         width: 100%;
         gap: 10px;
     }
