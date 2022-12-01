@@ -1,16 +1,13 @@
 div {
-  animation: mymove 1s;
+  animation: mymove 1s reverse;
 }
 
 @keyframes mymove {
-  from {
+  0% {
     left: 0px;
   }
 
-  /* 0% */
-  to {
-    left: 200px;
+  100% {
+    left: 200px
   }
-
-  /* 100% */
 }
