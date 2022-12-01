@@ -1,7 +1,16 @@
 div {
-  animation: mymove 4s;
+  animation: mymove 1s;
 }
+
 @keyframes mymove {
-    from {left: 0px;} /* 0% */
-    to {left: 200px;} /* 100% */
+  from {
+    left: 0px;
+  }
+
+  /* 0% */
+  to {
+    left: 200px;
+  }
+
+  /* 100% */
 }
