@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.coul1 {
+    background-color: green;
+}
+
+.coul2 {
+    background-color: blue;
+}
+
+.coul3 {
+    background-color: purple;
+}
+
+.coul4 {
+    background-color: orange;
+}
+
+.coul5 {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    height: 33%;
+    width: 100%;
+    gap: 10px;
+}
+
+.col {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    gap: 10px;
+}
+
+.div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.div1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.div2 {
+    height: 50px;
+    width: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.541);
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.541);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .col {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 1px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        gap: 10px;
+    }
+
+}
